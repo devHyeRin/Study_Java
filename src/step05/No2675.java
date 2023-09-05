@@ -16,6 +16,7 @@ public class No2675 {
         for(int i = 0; i < T; i++){
             int R = sc.nextInt();
             String S = sc.next();    // nextLine()을 쓰면 공백까지 읽어버리므로 next 사용해야함
+
             for(int j = 0; j < S.length(); j++){
                 for(int k = 0; k < R; k++){
                     System.out.print(S.charAt(j));
